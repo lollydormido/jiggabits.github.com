@@ -7,6 +7,14 @@ body {
 	font-size: 12px;
 }
 
+::selection {
+	background: #F645FF;
+}
+
+::-moz-selection {
+	background: #F645FF;
+}
+
 #container {
 	position: relative;
 	top: 100px;
