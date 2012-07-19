@@ -1,0 +1,45 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+	color: #000;
+	font-family: Arial, Verdana;
+	font-size: 12px;
+}
+
+#container {
+	position: relative;
+	top: 100px;
+}
+
+header {
+	margin: 0 auto;
+	font-family: 'Yellowtail', cursive;
+	font-size: 145px;
+	line-height: 190px;
+	display: block;
+	text-align: center;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFDA45), to(#F645FF));
+	  -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+nav {
+	margin: 0 auto;
+	display: block;
+}
+
+nav ul {
+	list-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	font-family: 'Knewave', cursive;
+	font-size: 18px;
+	margin: 0 5px;
+	padding: 0;
+}
